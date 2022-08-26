@@ -1,0 +1,55 @@
+<!--add base template-->
+{% extends "baseroot.html" %}
+
+<!--add format forms-->
+{% load widget_tweaks %}
+
+<!--load statics files-->
+{% load static %}
+
+<!-- Begin title-->
+{%block title %}
+{{ title.page }} {% endblock %}
+<!-- End title-->
+
+<!--begin content-->
+{% block content %}
+
+    <main role="main">
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">Arasunu</h1>
+          <p class="lead text-muted">Pagina con información sobre clima</p>
+        </div>
+      </section>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+
+          <div class="row">
+            <ul>
+              <li>Test</li>
+              <li>Test</li>
+              <li>Test</li>
+              <li>Test</li>
+              <li>Test</li>
+              <li>Test</li>
+              <li>Test</li>
+              <li>Test</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="text-muted">
+      <div class="container">
+        <p>Copyright &copy; 2022</p>
+        <p>Arasunu</a>.</p>
+        <p>Todos los derechos reservados</p>
+      </div>
+   </footer>
+
+{% endblock %}
