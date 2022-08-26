@@ -4,3 +4,4 @@ django-widget-tweaks
 Pillow
 psycopg2
 requests
+gunicorn
